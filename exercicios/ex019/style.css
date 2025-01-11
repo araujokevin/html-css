@@ -1,0 +1,50 @@
+/*
+    Em HTML é id = em CCS é # ( só pode um elemento)
+    Em HTML é class = em CSS é . (pode vários elementos)
+*/
+:root {
+    --primary:#e7f6ff;
+    --secondary:#0f6397;
+    --danger:#023d71;
+    --success:#43a6e3;
+
+}
+
+
+body {
+    background-color: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: var(--secondary);
+}
+#h1-principal{
+    text-align: center;
+    
+    background: linear-gradient(to right, var(--danger), var(--secondary),var(--success));
+    padding: 20px;
+    color: var(--primary);
+
+}
+
+h2 {
+    color: var(--secondary);
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avancado {
+    color: #803c3c;
+}
+
+.destaque{
+    background: rgba(220, 220, 122, 0.545);
+
+}
